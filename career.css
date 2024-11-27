@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body{
+      height: 100%;
+      width: 100%;
+  }
+  nav{
+    height: 70px;
+    width: 100%;
+    padding : 30px 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+  }
+  #logo{
+    height: 40px;
+    width: 100px;
+  }
+  #p2{
+    color: inherit;
+    text-decoration: none ;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    gap:40px;
+  }
+  #download{
+    height: 43px;
+    width : 150px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .links{
+    text-decoration: none;
+    color: black;
+  }
+  #p1{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+  }
+  #P1left{
+    height:50vh;
+    width: 75vh;
+    margin-top: 28vh;
+    margin-left: 25vh;
+    margin-right: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap:1.2rem;
+    padding-left: 15px;
+  }
+  #P1left h2{
+    margin-top: 20px;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  #P1left p{
+    font-size: 25px;
+    font-weight: 50;
+  }
+  #jobs{
+    height: 6vh;
+    width: 15vh;
+    background-color: rgb(241, 199, 58);
+    font-weight: 800;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  #P1right{
+    height: 80vh;
+    width: 58vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    /*align-items:;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);*/
+  }
+  #i1{
+    height: 30vh;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 70px;
+
+  }
+  #box1{
+    height: 8vh;
+    width: 19vh;
+    background-color: rgb(241, 199, 58);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-bottom: 10px;
+  }
+  #box2{
+    height: 27vh;
+    width: 7vh;
+    margin-top: 10px;
+    margin-left: 15vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: rgb(241, 199, 58);
+  }
+  #i2{
+    height: 51vh;
+    margin: 0;
+    gap:0;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+  #pa2{
+    height: 50vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #pa2 h1{
+    margin-left: 26vh;
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
+  #bom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+  }
+  #bo1{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    font-size: 20px;
+    gap: 1.5rem;
+  }
+  #bo2{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    font-size: 20px;
+    gap: 1.5rem;
+  }
+  #bo3{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    font-size: 20px;
+    gap: 1.5rem;
+  }
+  #page4{
+    background-color: #000;
+    height: 65vh;
+    width:100%;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #box41{
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+
+  }
+  #box411{
+    display: flex;
+    flex-direction: column;
+  }
+  #box411 h2,
+  #box412 h2{
+    padding: 50px;
+  }
+  #box42{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color:#fff;
+    gap: 1.5rem;
+    font-size: 30px;
+  }
+  .linkss{
+    text-decoration: none;
+    color: white;
+  }

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body{
+      height: 100%;
+      width: 100%;
+     /* font-family: "Poppins" ;*/
+  }
+  nav{
+    height: 70px;
+    width: 100%;
+    padding : 30px 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+  }
+  #logo{
+    height: 40px;
+    width: 100px;
+  }
+  #p2{
+    color: inherit;
+    text-decoration: none ;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    gap:40px;
+  }
+  #download{
+    height: 43px;
+    width : 150px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .links{
+    text-decoration: none;
+    color: black;
+  }
+  #p1{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+  }
+  #P1left{
+    height:50vh;
+    width: 82vh;
+    margin-top: 22vh;
+    margin-left: 22vh;
+    margin-right: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap:1.3rem;
+    padding-left: 15px;
+  }
+  #P1left h3{
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+  }
+  #P1left h1{
+    margin-top: 25px;
+    font-size: 55px;
+    font-weight: 550;
+    margin-bottom: 0;
+  }
+  #P1left h2{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  #P1left p{
+    font-size: 23px;
+    font-weight: 50;
+  }
+ 
+  #P1right{
+    height: 80vh;
+    width: 58vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    /*align-items:;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);*/
+  }
+  #i1{
+    height: 30vh;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 70px;
+
+  }
+  #box1{
+    height: 8vh;
+    width: 19vh;
+    background-color: rgb(211, 207, 194);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-bottom: 10px;
+  }
+  #box2{
+    height: 27vh;
+    width: 7vh;
+    margin-top: 10px;
+    margin-left: 15vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: rgb(241, 199, 58);
+  }
+  #i2{
+    height: 51vh;
+    margin: 0;
+    gap:0;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+  #container{
+    height:50vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #cleft{
+    height: 90%;
+    width:47%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 15vh;
+  }
+  #cleft h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  #cleft p{
+    font-size: 25px;
+  }
+  #cright{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #cright .box{
+    height: 90px;
+    width: 90px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: yellow;
+  }
+  #boxa,
+  #boxb,
+  #boxc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #boxa h3,
+  #boxb h3,
+  #boxc h3{
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  #boxa h4,
+  #boxb h4,
+  #boxc h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  #box11{
+    background-image: url(rishi.png);
+    background-size: cover;
+  }
+  #box12{
+    background-image: url(pavan.png);
+    background-size: cover;
+  }
+  #box13{
+    background-image: url(aravind.png);
+    background-size: cover;
+  }
+  #page4{
+    background-color: #000;
+    height: 65vh;
+    width:100%;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #box41{
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+
+  }
+  #box411{
+    display: flex;
+    flex-direction: column;
+  }
+  #box411 h2,
+  #box412 h2{
+    padding: 50px;
+  }
+  #box42{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color:#fff;
+    gap: 1.5rem;
+    font-size: 30px;
+  }
+  .linkss{
+    text-decoration: none;
+    color: white;
+  }

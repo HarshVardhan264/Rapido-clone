@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body{
+      height: 100%;
+      width: 100%;
+  }
+  nav{
+    height: 70px;
+    width: 100%;
+    padding : 30px 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+  }
+  #logo{
+    height: 40px;
+    width: 100px;
+  }
+  #p2{
+    color: inherit;
+    text-decoration: none ;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    gap:40px;
+  }
+  #download{
+    height: 43px;
+    width : 150px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .links{
+    text-decoration: none;
+    color: black;
+  }
+  #page1{
+    height : 100vh;
+    width:100%;
+    overflow-y: hidden;
+    display: flex;
+    padding: 0;
+    gap:0;
+    
+  }
+  #left{
+    height : 60vh;
+    width: 60vh;
+    margin-left: 200px;
+    margin-top: 220px;
+    position: absolute;
+  }
+  #header{
+    color: black;
+    font-size: 50px;
+    font-weight: 50;
+  }
+  #part2{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 50;
+  }
+  #app{
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+    padding: 0 20px;
+    background-color: #FFE134;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+  }
+  #sign{
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+    padding: 0 20px;
+    background-color: black;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  #right{
+    height: 70vh;
+    width: 60%;
+    margin-left: 650px;
+    margin-right: 0;
+    margin-top: 80px;
+    background-image: url("car.webp");
+    background-size: cover;
+    margin-right: 40px;
+  }
+  #page2{
+    height : 100vh;
+    width:100%;
+    overflow-y: hidden;
+    display: flex;
+    padding: 0;
+    gap:0;
+  }
+  #left1{
+    height : 60vh;
+    width: 60vh;
+    margin-left: 200px;
+    margin-top: 150px;
+    position: absolute;
+  }
+  #header1{
+    color: black;
+    font-size: 30px;
+    font-weight: 50;
+  }
+  #part2-1{
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 200;
+  }
+  #more{
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+    padding: 0 20px;
+    background-color: #FCB001;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  #page3{
+    height : 100vh;
+    width:100%;
+    overflow-y: hidden;
+    display: flex;
+    padding: 0;
+    gap:0;
+  }
+  #impact{
+    background-color: #ece5cd;
+    height: 80vh;
+    width: 160vh;
+    border-radius: 500px;
+    flex-wrap: nowrap;
+    margin: 30px 200px;
+  }
+  #h2{
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 450px;
+  }
+  #base1{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 150px;
+  }
+  #base2{
+    font-size: 25px;
+    padding-left: 350px;
+  }
+  #circle{
+    height: 30vh;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    gap: 30px;
+  }
+  #c1{
+    height: 25vh;
+    width: 25vh;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  #c2{
+    height: 25vh;
+    width: 25vh;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    
+  }
+  #c3{
+    height: 25vh;
+    width: 25vh;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 60px; 
+  }
+  #c4{
+    height: 25vh;
+    width: 25vh;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+  }
+  #circle p{
+    font-size: 20px;
+  }
+  #circle h3{
+    padding-left: 10px;
+    padding-top: 12px;
+  }
+  #c1 h3{
+    padding-left: 65px;
+  }
+  #c1 p{
+    padding-left: 50px;
+  }
+  #c1 img{
+    padding-left: 60px;
+  }
+  #right1{
+    height : 80vh;
+    width: 90vh;
+    margin-left: 700px;
+    margin-top: 100px;
+  }
+  #right1 img{
+    height: 65vh;
+    width: 80vh;
+  }
+  #page4{
+    background-color: #000;
+    height: 65vh;
+    width:100%;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #box41{
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+
+  }
+  #box411{
+    display: flex;
+    flex-direction: column;
+  }
+  #box411 h2,
+  #box412 h2{
+    padding: 50px;
+  }
+  #box42{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color:#fff;
+    gap: 1.5rem;
+    font-size: 30px;
+  }
+  .linkss{
+    text-decoration: none;
+    color: white;
+  }
